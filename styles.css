@@ -1,7 +1,123 @@
 body{
-    background-image: url("Neon\ DJ\ Logo\ Yeronimus.png");
-    background-repeat: no-repeat;
-    background-size: auto;
+    background-color: black;  
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#intro {
+    text-align: center;
+    font-size: larger;
+    color: white;
+    text-shadow: 10px 10px 4px #5e5d5d;
+    background-color: black;
+}
+#image {
+    margin-top: -275px;
+    transform: scale(0.5);
+
+}
+ul.navbar {
+  background-color: none;
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+nav a {
+  text-decoration-line: none;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  background-color: none;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.navbar a{
+  padding: 5px;
+}
+
+
+aside{
+  position: fixed ;
+ 
+
+    /* 2. Bepaal wanneer het element moet stoppen met scrollen. */
+    /* Zodra de bovenrand van het aside-element 20px van de bovenkant van de viewport is, stopt het met bewegen. */
+    top: 20px; 
+    right: 20px;
+    
+    /* Optioneel: zorg voor een zekere basisbreedte als je het in een flexibele container gebruikt */
+    width: 250px; 
+    
+    /* Zorg ervoor dat het boven andere elementen blijft tijdens het scrollen */
+    z-index: 10;
     
 }
 
+
+
+.info1 {
+  background-color: #21393D;
+  width: 100vw;
+  height: 500px;
+  text-align: center;
+  border-radius: 10px;
+}
+.info2 {
+  background-color: #2B4A4F;
+  width: 100vw;
+  height: 500px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.aside{
+  text-decoration-line: none;
+  color: white; 
+  padding: 5px;
+  line-height: 30px;
+
+}
+
+.aside:hover{
+  color: black;
+   background-color: grey;
+   transition: all 200ms;
+   border-radius: 10px;
+}
+
+.active {
+  background-color:  #212529;
+  border-radius: 10px;
+}
+
+.navbar a:hover{
+  color: black;
+  background-color: grey;
+  transition: all 200ms;
+  border-radius: 10px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.mainaside {
+  width: 600px;
+}
+
+table, td, th {
+  border: 1px solid;
+  padding: 10px;
+}
+table {
+  border-collapse: collapse;
+}
+
+.imageaside {
+    width: 1000px;
+    scale: 0.5;
+}
