@@ -121,3 +121,11 @@ table {
     width: 1000px;
     scale: 0.5;
 }
+
+.pictures {
+  transform: scale(1.5);
+  height: 200px;
+  margin-top: 100px;
+  margin-right: 50px;
+  align-items: center;
+}
