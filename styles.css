@@ -1,3 +1,4 @@
+/* stylen van de body*/
 body{
     background-color: #000308;  
     color: white;
@@ -10,11 +11,13 @@ body{
     color: white;
     text-shadow: 10px 10px 4px #5e5d5d;
 }
+/* aanpassingen doen aan het element met ID 'image'*/
 #image {
     margin-top: -275px;
     transform: scale(0.5);
 
 }
+/* styling voor de unordend list met class name 'navbar'*/
 ul.navbar {
   background-color: none;
     list-style-type: none;
@@ -38,7 +41,7 @@ nav a {
   padding: 5px;
 }
 
-
+/* positie bepaling voor de foto op setlists.html in de aside*/
 aside{
   position: fixed ;
  
@@ -78,6 +81,7 @@ aside{
   color: white; 
   padding: 5px;
   line-height: 30px;
+  text-decoration: underline;
 
 }
 
@@ -128,3 +132,4 @@ table {
   margin-right: 50px;
   align-items: center;
 }
+
